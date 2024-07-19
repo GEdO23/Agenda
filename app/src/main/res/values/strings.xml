@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="lista_alunos">Lista de alunos</string>
+    <string name="novo_aluno">Botão que adciona um novo aluno a lista de alunos</string>
+</resources>
