@@ -2,4 +2,8 @@
     <string name="app_name">Agenda</string>
     <string name="lista_alunos">Lista de alunos</string>
     <string name="novo_aluno">Botão que adciona um novo aluno a lista de alunos</string>
+    <string name="activity_formulario_aluno_edit_text_nome_hint">Nome</string>
+    <string name="activity_formulario_aluno_edit_text_telefone_hint">Telefone</string>
+    <string name="activity_formulario_aluno_edit_text_email_hint">Email</string>
+    <string name="activity_formulario_aluno_button_salvar_text">Salvar</string>
 </resources>
