@@ -66,12 +66,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
     private void configuraFabNovoAluno() {
         FloatingActionButton botaoNovoAluno = findViewById(R.id.activity_lista_alunos_fab_novo_aluno);
-        botaoNovoAluno.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                abreFormularioModoInsereAluno();
-            }
-        });
+        botaoNovoAluno.setOnClickListener(v -> abreFormularioModoInsereAluno());
     }
 
     private void abreFormularioModoInsereAluno() {
@@ -99,12 +94,9 @@ public class ListaAlunosActivity extends AppCompatActivity {
     }
 
     private void configuraListenerDeCliquePorItem(@NonNull ListView listaDeAlunos) {
-        listaDeAlunos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Aluno alunoEscolhido = (Aluno) parent.getItemAtPosition(position);
-                abreFormularioModoEditaAluno(alunoEscolhido);
-            }
+        listaDeAlunos.setOnItemClickListener((parent, view, position, id) -> {
+            Aluno alunoEscolhido = (Aluno) parent.getItemAtPosition(position);
+            abreFormularioModoEditaAluno(alunoEscolhido);
         });
     }
 
