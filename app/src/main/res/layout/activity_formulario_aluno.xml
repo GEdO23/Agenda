@@ -36,15 +36,6 @@
             android:hint="@string/activity_formulario_aluno_edit_text_email_hint"
             android:inputType="textEmailAddress" />
 
-        <Button
-            android:id="@+id/activity_formulario_aluno_botao_salvar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingVertical="10dp"
-            android:layout_margin="8dp"
-            android:text="@string/activity_formulario_aluno_button_salvar_text"
-             />
-
     </LinearLayout>
 
 </ScrollView>
