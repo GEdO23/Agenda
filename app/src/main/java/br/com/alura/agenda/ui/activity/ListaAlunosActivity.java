@@ -48,18 +48,25 @@ public class ListaAlunosActivity extends AppCompatActivity {
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
-        menu.add("Remover");
+        getMenuInflater()
+                .inflate(R.menu.activity_lista_alunos_menu, menu);
     }
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
-        AdapterView.AdapterContextMenuInfo menuInfo =
-                (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
-        if (menuInfo != null) {
-            Aluno alunoEscolhido = adapter.getItem(menuInfo.position);
-            remove(alunoEscolhido);
+
+        int itemId = item.getItemId();
+        if (itemId == R.id.activity_lista_alunos_menu_remover) {
+            AdapterView.AdapterContextMenuInfo menuInfo =
+                    (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+            if (menuInfo != null) {
+                Aluno alunoEscolhido = adapter.getItem(menuInfo.position);
+                remove(alunoEscolhido);
+            } else {
+                Log.e("erroMenuInfo", "menuInfo é nulo");
+            }
         } else {
-            Log.e("erroMenuInfo", "menuInfo é nulo");
+            Log.e("erroMenuInfo", "tituloDoMenu é nulo");
         }
         return super.onContextItemSelected(item);
     }
