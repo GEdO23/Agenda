@@ -5,5 +5,6 @@
     <string name="activity_formulario_aluno_edit_text_nome_hint">Nome</string>
     <string name="activity_formulario_aluno_edit_text_telefone_hint">Telefone</string>
     <string name="activity_formulario_aluno_edit_text_email_hint">Email</string>
-    <string name="activity_formulario_aluno_button_salvar_text">Salvar</string>
+    <string name="activity_formulario_aluno_menu_salvar_title">Salvar</string>
+    <string name="activity_lista_alunos_menu_remover_title">Remover</string>
 </resources>
