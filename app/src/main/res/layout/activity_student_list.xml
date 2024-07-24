@@ -5,20 +5,20 @@
     android:layout_height="match_parent" >
 
     <ListView
-        android:id="@+id/activity_lista_alunos_listview"
+        android:id="@+id/activity_student_list_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/lista_alunos" />
+        android:contentDescription="@string/activity_student_list_listview_description" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/activity_lista_alunos_fab_novo_aluno"
+        android:id="@+id/activity_student_list_fab_new_student"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
         android:clickable="true"
-        android:contentDescription="@string/novo_aluno"
+        android:contentDescription="@string/activity_student_list_fab_new_student_description"
         android:focusable="true"
         android:src="@drawable/ic_action_add"
         app:tint="@null"

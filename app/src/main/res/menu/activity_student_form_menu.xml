@@ -2,9 +2,8 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/activity_formulario_aluno_menu_salvar"
+    <item android:id="@+id/activity_student_form_menu_save"
         app:showAsAction="always"
-        android:contentDescription="@string/novo_aluno"
-        android:title="Salvar"
+        android:title="@string/activity_student_form_menu_save_title"
         android:icon="@drawable/ic_action_salvar"/>
 </menu>

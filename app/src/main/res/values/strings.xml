@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Agenda</string>
-    <string name="lista_alunos">Lista de alunos</string>
-    <string name="novo_aluno">Botão que adciona um novo aluno a lista de alunos</string>
-    <string name="activity_formulario_aluno_edit_text_nome_hint">Nome</string>
-    <string name="activity_formulario_aluno_edit_text_telefone_hint">Telefone</string>
-    <string name="activity_formulario_aluno_edit_text_email_hint">Email</string>
-    <string name="activity_formulario_aluno_button_salvar_text">Salvar</string>
+    <string name="activity_student_list_listview_description">Lista de students</string>
+    <string name="activity_student_form_edit_text_name_hint">Nome</string>
+    <string name="activity_student_form_edit_text_telephone_hint">Telefone</string>
+    <string name="activity_student_form_edit_text_email_hint">Email</string>
+    <string name="activity_student_form_menu_save_title">Salvar</string>
+    <string name="activity_student_list_menu_remover_title">Remover</string>
+    <string name="activity_student_list_fab_new_student_description">Botao que adciona um novo aluno a lista de alunos.</string>
 </resources>

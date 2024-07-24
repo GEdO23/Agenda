@@ -10,30 +10,30 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/activity_formulario_aluno_nome"
+            android:id="@+id/activity_student_form_name"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:autofillHints="name"
-            android:hint="@string/activity_formulario_aluno_edit_text_nome_hint"
+            android:hint="@string/activity_student_form_edit_text_name_hint"
             android:inputType="textCapWords" />
 
         <EditText
-            android:id="@+id/activity_formulario_aluno_telefone"
+            android:id="@+id/activity_student_form_telephone"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:autofillHints="phone"
-            android:hint="@string/activity_formulario_aluno_edit_text_telefone_hint"
+            android:hint="@string/activity_student_form_edit_text_telephone_hint"
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/activity_formulario_aluno_email"
+            android:id="@+id/activity_student_form_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:autofillHints="emailAddress"
-            android:hint="@string/activity_formulario_aluno_edit_text_email_hint"
+            android:hint="@string/activity_student_form_edit_text_email_hint"
             android:inputType="textEmailAddress" />
 
     </LinearLayout>
