@@ -36,7 +36,7 @@ public class AlunoDAO implements AbstractDAO<Aluno> {
     }
 
     @Override
-    public void edit(@NonNull Aluno aluno) {
+    public void update(@NonNull Aluno aluno) {
         Aluno alunoEncontrado = getById(aluno);
         if (alunoEncontrado != null) {
             int posicaoDoAluno = alunos.indexOf(alunoEncontrado);

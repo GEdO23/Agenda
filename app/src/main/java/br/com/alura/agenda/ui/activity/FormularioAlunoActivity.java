@@ -58,7 +58,7 @@ public class FormularioAlunoActivity extends AppCompatActivity {
     private void finalizaFormulario() {
         preencheAluno();
         if (aluno.temIdValido()) {
-            dao.edit(aluno);
+            dao.update(aluno);
         } else {
             dao.save(aluno);
         }

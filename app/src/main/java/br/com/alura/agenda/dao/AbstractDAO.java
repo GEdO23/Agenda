@@ -8,6 +8,6 @@ public interface AbstractDAO<T> {
     List<T> getAll();
     T getById(@NonNull T t);
     void save(@NonNull T t);
-    void edit(@NonNull T t);
+    void update(@NonNull T t);
     void remove(@NonNull T t);
 }
