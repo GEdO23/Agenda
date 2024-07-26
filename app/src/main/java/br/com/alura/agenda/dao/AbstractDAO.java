@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 
 import java.util.List;
 
+/** @noinspection unused, unused , unused , unused , unused */
 public interface AbstractDAO<T> {
     List<T> getAll();
     T getById(@NonNull T t);
